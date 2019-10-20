@@ -20,6 +20,8 @@
 .sub-menu {
   padding-left: 0;
   background-color: #dde1e7;
+  height: 200px;
+  transition: height 0.5s;
 }
 .sub-menu li {
   display: block;
@@ -27,7 +29,9 @@
   padding: 20px;
   border: 2px solid #fff;
   box-sizing: border-box;
+  transition-timing-function: ease-in-out;
 }
+
 .hide {
   display: none;
 }
